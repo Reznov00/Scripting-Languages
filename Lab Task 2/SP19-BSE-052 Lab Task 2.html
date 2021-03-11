@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice</title>
+    <style>
+        .logo {
+            border-radius: 100%;
+            position: relative;
+            left: 30px;
+            top: 1px;
+            margin: 20px 0;
+        }
+        .inv-info{
+            color: #fff;
+            position: absolute;
+            right: 30px;
+            top:0;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .logo-div,.inv-info{
+            background-color: #8282bb;
+        }
+        hr{
+            margin: 7.5px 0;
+        }
+        .inv-detail{
+            background-color: #CBD3D8;
+        }
+    </style>
+</head>
+
+<body style=" font-family: Verdana, sans-serif;">
+    <div class="logo-div">
+        <img src="https://i.ibb.co/GnHCLZr/default.png" alt="Logo" class="logo" width="120px" height="120px">
+    </div>
+    <div class="inv-info">
+        <h2>Invoice #28726</h2>
+        <p>issued Feburary 23<sup>rd</sup>, 2021</p>
+        <p>payment due March 23<sup>rd</sup>, 2021</p>
+    </div>
+
+    <hr>
+
+    <table style="margin: auto 125px;">
+        <colgroup>
+            <col style="width: 25%;">
+            <col style="width: 25%;">
+            <col style="width: 40%;">
+        </colgroup>
+        <thead style="text-align: left;">
+            <th>From:</th>
+            <th>To:</th>
+            <th>Invoice Description</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Reznov & Co.<br>
+                    142 Alpine St.<br>
+                    Islamabad, Pakistan
+                </td>
+                <td>
+                    Aamir<br>
+                    ~Random Address~<br>
+                    +92-312-1424612
+                </td>
+                <td>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Veniam debitis eaque voluptate laudantium.
+                        Quos vitae consequuntur hic non fugit quisquam voluptas maxime reprehenderit nam cumque modi?
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <table border="1px solid" style="margin: 0.87rem 1.2rem; text-align: left; position: absolute; left: 16.5rem;">
+        <colgroup>
+            <col style="width: auto;">
+            <col style="width: 12%;">
+            <col style="width: 15%;">
+            <col style="width: 15%;">
+        </colgroup>
+
+        <thead class="inv-detail">
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Subtotal</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Item 1</td>
+                <td>12</td>
+                <td>$50</td>
+                <td>$600</td>
+            </tr>
+            <tr>
+                <td>Item 2</td>
+                <td>5</td>
+                <td>$60</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>Item 3</td>
+                <td>15</td>
+                <td>$10</td>
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>Item 4</td>
+                <td>50</td>
+                <td>$10</td>
+                <td>$500</td>
+            </tr>
+            <tr>
+                <td>Item 5</td>
+                <td>5</td>
+                <td>$70</td>
+                <td>$350</td>
+            </tr>
+        </tbody>
+        <tfoot class="inv-detail">
+            <td></td>
+            <td></td>
+            <th>Total</th>
+            <th>$1900</th>
+        </tfoot>
+    </table>
+</body>
+</html>

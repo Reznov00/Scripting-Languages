@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Page Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav>
+      <h2 style="font-family: Montserrat, sans-serif; color: #fff; line-height: 60px; float: left; padding-left: 10px;">Reznov & Co.</h2>
+      <ul>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#signup">Sign Up</a></li>
+        <li><a href="#home">Home</a></li>
+      </ul>
+    </nav>
+    <div id="home">
+      <div class="title">
+        <div class="title-head">
+          <h1>Reznov & Co.</h1>
+        </div>
+        <div class="title-content">
+          <p>
+            Reznov & Co. is a leading name in the industry of development and digitizing the orthodox methodologies of workspace.
+            The main objective of Reznov & Co. is to make the daily life dealings easier by introducing newer and modern technologies.
+            The main aim of this website is to eliminate the hassle of queues and especially in the times like these, it can help to observe
+            government provided SOPs strictly and responsibly.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="signup-holder">
+      <h1 style="padding-top: 15px; margin-left: 160px;">Sign Up Here!</h1>
+      <div id="signup" class="main">
+        <form class="form-group" style = "margin: 15px auto 0; padding: 10px 20px;">
+          <div class="names">
+            <label for="fName">First Name</label>
+            <label for="lName" style="margin-left: 185px;">Last Name</label><br>
+            <input class="textInput" type="text" name="fName" placeholder="Enter First Name" autofocus autocomplete="off" required>
+            <input class="textInput" style="margin-left: 45px;" type="text" name="lName" placeholder="Enter Last Name" required><br><br>
+          </div>
+
+          <div class="email">
+            <label for="emailID">Email ID</label><br>
+            <input class="textInput" type="text" name="emailID" placeholder="Enter your email" size="37px" required>
+            <span class="email-url">@example.com</span>
+          </div>
+          <br>
+          <div class="passwords">
+            <label for="pass">Enter a Password</label>
+            <label for="repPass" style="margin-left: 135px;">Confirm Password</label><br>
+            <input class="textInput" type="password" name="pass" placeholder="Enter a Password" required>
+            <input class="textInput" style="margin-left: 45px;" type="password" name="repPass" placeholder="Confirm Password" required><br>
+          </div>
+
+          <div class="gender" >
+            <h5>Select your gender</h5>
+            <input type="radio" name="gender" value="male" style="margin: 1px 0 1px 10px;">
+            <p style="display: inline;">Male</p>
+            <input type="radio" name="gender" value="female" style="margin: 1px 0 1px 50px;">
+            <p style="display: inline;">Female</p>
+          </div>
+
+          <div class="terms" style="margin: 20px auto 10px">
+            <input type="checkbox" name="terms" value="terms">
+            <p style="display: inline;">By signing up, you agree to our <a href="#">Terms & Policy</a>.</p>
+          </div>
+          <button class="btn btn-large btn-danger" type="button" name="submitButton">Sign Up</button>
+        </form>
+      </div>
+    </div>
+    <div id="services">
+      <div class="row" style="padding-left: 3rem;">
+        <div style="margin-top: 5rem;margin-bottom: 7rem; margin-left: 20px; text-align : center; width: 30%;" class="feat">
+          <i class="icon fas fa-globe fa-4x"></i>
+          <h3>Web Designing</h3>
+          <p>Superior Web Design using modern day frameworks</p>
+        </div>
+        <div style="margin-top: 5rem; margin-bottom: 7rem; margin-left: 20px; text-align : center; width: 30%;" class="feat">
+          <i class="icon fas fa-database fa-4x"></i>
+          <h3>Web Development</h3>
+          <p>Fully supported and updated server-side database</p>
+        </div>
+        <div style="margin-top: 5rem; margin-bottom: 7rem; margin-left: 20px; text-align : center; width: 30%;" class="feat">
+          <i class="icon fas fa-cloud fa-4x"></i>
+          <h3>Web Development</h3>
+          <p>Server-side hosting on cloud services like AWS</p>
+        </div>
+      </div>
+    </div>
+    <div id="contact">
+      <i class="socials fab fa-twitter fa-2x"></i>
+      <i class="socials fab fa-facebook-f fa-2x"></i>
+      <i class="socials fab fa-instagram fa-2x"></i>
+      <i class="socials fas fa-envelope fa-2x"></i>
+      <p>&copy 2021 <span>Reznov & Co.</span></p>
+    </div>
+  </body>
+</html>

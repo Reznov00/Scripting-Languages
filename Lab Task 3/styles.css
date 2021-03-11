@@ -1,0 +1,38 @@
+body{
+  background-color: #a7c5eb;
+}
+
+img{
+  border-radius: 100%;
+  margin-left: 36rem;
+}
+
+hr{
+  margin: 16px 0;
+  background-color: #4a47a3;
+}
+
+label{
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.main{
+  width: fit-content;
+  padding: 10px;
+  margin: 50px auto;
+  border: 6px dotted #4a47a3;
+}
+
+.btn{
+  width: fit-content;
+  margin: 7px auto 7px 10rem;
+}
+
+.textInput{
+  border-radius: 3px;
+}
+
+.gender{
+  margin: 10px auto;
+}

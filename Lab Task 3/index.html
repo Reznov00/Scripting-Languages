@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body style = "margin: 10px;">
+    <img src="https://i.ibb.co/GnHCLZr/default.png" alt="Logo" class="logo" width="170px" height="170px">
+    <hr><hr>
+    <div class="main">
+      <form class="form-group" style = "margin: 15px;">
+        <div class="names">
+          <label for="fName">First Name</label>
+          <label for="lName" style="margin-left: 140px;">Last Name</label><br>
+          <input class="textInput" type="text" name="fName" placeholder="Enter First Name" autofocus autocomplete="off" required>
+          <input class="textInput" style="margin-left: 45px;" type="text" name="lName" placeholder="Enter Last Name" required><br><br>
+        </div>
+
+        <div class="email">
+          <label for="emailID">Email ID</label><br>
+          <input class="textInput" type="text" name="emailID" placeholder="Enter your email" size="37px" required>
+          <span class="email-url">@example.com</span>
+        </div>
+        <br>
+        <div class="passwords">
+          <label for="pass">Enter a Password</label>
+          <label for="repPass" style="margin-left: 90px;">Confirm Password</label><br>
+          <input class="textInput" type="password" name="pass" placeholder="Enter a Password" required>
+          <input class="textInput" style="margin-left: 45px;" type="password" name="repPass" placeholder="Confirm Password" required><br>
+        </div>
+
+        <div class="gender" >
+          <h5>Select your gender</h5>
+          <input type="radio" name="gender" value="male" style="margin: 1px 0 1px 10px;">
+          <p style="display: inline;">Male</p>
+          <input type="radio" name="gender" value="female" style="margin: 1px 0 1px 50px;">
+          <p style="display: inline;">Female</p>
+        </div>
+
+        <div class="terms" style="margin: 20px auto 10px">
+          <input type="checkbox" name="terms" value="terms">
+          <p style="display: inline;">By signing up, you agree to our <a href="#">Terms & Policy</a>.</p>
+        </div>
+        <button class="btn btn-large btn-danger" type="button" name="submitButton" onclick="alert('Successfully Signed Up!')">Sign Up</button>
+      </form>
+    </div>
+  </body>
+</html>
